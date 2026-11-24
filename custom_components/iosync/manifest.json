@@ -1,0 +1,14 @@
+{
+  "domain": "iosync",
+  "name": "IoSync",
+  "codeowners": ["@thestealth131205"],
+  "config_flow": true,
+  "dependencies": ["http"],
+  "documentation": "https://github.com/thestealth131205/HA-IoSync",
+  "integration_type": "hub",
+  "iot_class": "local_push",
+  "issue_tracker": "https://github.com/thestealth131205/HA-IoSync/issues",
+  "requirements": [],
+  "single_config_entry": true,
+  "version": "1.0.0"
+}

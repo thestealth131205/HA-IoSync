@@ -1,0 +1,13 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Set up IoSync",
+        "description": "Home Assistant will then accept data from the IoSync app (e.g. the sleep state from Healthy).\n\nHome Assistant must be configured in the IoSync app with address and long-lived token. Devices and entities appear as soon as the app sends data for the first time – for the sleep state e.g. via **Settings → Sleep state from Healthy → Send to Home Assistant now**."
+      }
+    },
+    "abort": {
+      "single_instance_allowed": "IoSync is already configured."
+    }
+  }
+}

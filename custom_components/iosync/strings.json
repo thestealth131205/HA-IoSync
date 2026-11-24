@@ -1,0 +1,13 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "IoSync einrichten",
+        "description": "Home Assistant nimmt danach Daten der IoSync-App entgegen (z. B. den Schlafstatus von Healthy).\n\nIn der IoSync-App muss Home Assistant mit Adresse und Langzeit-Token eingerichtet sein. Geräte und Entitäten erscheinen, sobald die App das erste Mal Daten sendet – beim Schlafstatus z. B. über **Einstellungen → Schlafstatus von Healthy → Jetzt an Home Assistant senden**."
+      }
+    },
+    "abort": {
+      "single_instance_allowed": "IoSync ist bereits eingerichtet."
+    }
+  }
+}
